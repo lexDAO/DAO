@@ -20,300 +20,125 @@
           height="70"
         />
         <ul>
-          <li>Menu Item 1</li>
-          <li><a href="#">Menu Item 2</a></li>
           <li>
-            <a href="#">Dropdown Menu Item</a>
+            <a href="#">ABOUT</a>
             <ul>
-              <li><a href="#">Sublink with a long name</a></li>
-              <li><a href="#">Short sublink</a></li>
+              <li><a href="#"><a href = "https://twitter.com/lex_DAO">LexDAO</a></li>
+              <li><a href="#"><a href ="https://github.com/lexDAO/moloch">Codebase</a></li>
             </ul>
           </li>
         </ul>
       </nav>
       <h1>LexDAO</h1>
-      <p>
-        <mark>
-          Powered by <a href="https://www.dapphero.io">DappHero.io</a>
-        </mark>
-      </p>
-      <p>LexDAO on Moloch v2x (MYSTIC)</p>
+      <a href="#"><a href = "https://medium.com/lexdaoism/introducing-moloch-dao-v2x-mystic-ethereum-contract-upgrades-c7984801d4db">Moloch v2x</a></li>
       <br />
+      
+      <h2>dao stuff 👇</h2>
       <p>
-        <button data-dh-feature="network" data-dh-property-enable="true">
-          Enable Web3
-        </button>
-      </p> 
-          ,
-          <header>
-            <div
-              data-dh-feature="customContract"
-              data-dh-property-method-id="lpj8"
-              data-dh-property-auto-invoke="false"
-              data-dh-property-contract-name="LexDAO"
-              data-dh-property-method-name="members"
-            >
+          <button data-dh-feature="network" data-dh-property-enable="true">
+            Enable Web3
+          </button>
+        </p>
+      <hr>
+      
+      <header>
+        <div
+          data-dh-feature="customContract"
+          data-dh-property-method-id="GIhZ"
+          data-dh-property-auto-invoke="false"
+          data-dh-property-contract-name="LexDAO"
+          data-dh-property-method-name="submitVote"
+        >
+        <h3>PROPOSALS</h3>
+          <h4><u>VOTE</u></h4>
+          <section>
+            <aside>
               <section>
-                <aside>
-                  <section>
-                    Check member account:
-                    <input
-                      type="text"
-                      placeholder="address"
-                      data-dh-property-method-id="lpj8"
-                      data-dh-property-input-name="[0]"
-                    />
-                  </section>
-                  <div
-                    data-dh-property-method-id="lpj8"
-                    data-dh-property-output-name="delegateKey"
-                  >
-                    <pre>Output...</pre>
-                  </div>
-                  <div
-                    data-dh-property-method-id="lpj8"
-                    data-dh-property-output-name="exists"
-                  >
-                    <pre>Output...</pre>
-                  </div>
-                  <div
-                    data-dh-property-method-id="lpj8"
-                    data-dh-property-output-name="shares"
-                  >
-                    <pre>Output...</pre>
-                  </div>
-                  <div
-                    data-dh-property-method-id="lpj8"
-                    data-dh-property-output-name="loot"
-                  >
-                    <pre>Output...</pre>
-                  </div>
-                  <div
-                    data-dh-property-method-id="lpj8"
-                    data-dh-property-output-name="highestIndexYesVote"
-                  >
-                    <pre>Output...</pre>
-                  </div>
-                  <div
-                    data-dh-property-method-id="lpj8"
-                    data-dh-property-output-name="jailed"
-                  >
-                    <pre>Output...</pre>
-                  </div>
-
-                  <button
-                    data-dh-property-invoke="true"
-                    data-dh-property-method-id="lpj8"
-                  >
-                    membership
-                  </button>
-                </aside>
+                <input
+                  type="text"
+                  placeholder="#"
+                  data-dh-property-method-id="GIhZ"
+                  data-dh-property-input-name="proposalIndex"
+                />
               </section>
-            </div>
-          </header>
-          ,
-          <header>
-            <div
-              data-dh-feature="customContract"
-              data-dh-property-method-id="u6It"
-              data-dh-property-auto-invoke="true"
-              data-dh-property-contract-name="LexDAO"
-              data-dh-property-method-name="proposalCount"
-            >
+              <h3>👍 👎</h3>
               <section>
-                <aside>
-                  <div
-                    data-dh-property-method-id="u6It"
-                    data-dh-property-outputs="true"
-                  >
-                    <pre>Output...</pre>
-                  </div>
-
-                  <button
-                    data-dh-property-invoke="true"
-                    data-dh-property-method-id="u6It"
-                  >
-                    Proposal Count
-                  </button>
-                </aside>
+                <input
+                  type="text"
+                  placeholder="[1] YES                     [2] NO"
+                  data-dh-property-method-id="GIhZ"
+                  data-dh-property-input-name="uintVote"
+                />
               </section>
-            </div>
-          </header>
-          ,
-          <header>
-            <div
-              data-dh-feature="customContract"
-              data-dh-property-method-id="_PUX"
-              data-dh-property-auto-invoke="false"
-              data-dh-property-contract-name="LexDAO"
-              data-dh-property-method-name="proposals"
-            >
-              <section>
-                <aside>
-                  <section>
-                    Check proposal details:
-                    <input
-                      type="text"
-                      placeholder="uint256"
-                      data-dh-property-method-id="_PUX"
-                      data-dh-property-input-name="[0]"
-                    />
-                  </section>
-                  <div
-                    data-dh-property-method-id="_PUX"
-                    data-dh-property-output-name="applicant"
-                  >
-                    <pre>Output...</pre>
-                  </div>
-                  <div
-                    data-dh-property-method-id="_PUX"
-                    data-dh-property-output-name="proposer"
-                  >
-                    <pre>Output...</pre>
-                  </div>
-                  <div
-                    data-dh-property-method-id="_PUX"
-                    data-dh-property-output-name="sponsor"
-                  >
-                    <pre>Output...</pre>
-                  </div>
-                  <div
-                    data-dh-property-method-id="_PUX"
-                    data-dh-property-output-name="tributeToken"
-                  >
-                    <pre>Output...</pre>
-                  </div>
-                  <div
-                    data-dh-property-method-id="_PUX"
-                    data-dh-property-output-name="paymentToken"
-                  >
-                    <pre>Output...</pre>
-                  </div>
+
+              <button
+                data-dh-property-invoke="true"
+                data-dh-property-method-id="GIhZ"
+              >
+              ⚔️
+              </button>
+            </aside>
+          </section>
+        </div>
+      </header>
+      <h4><u>CHECK</u></h4>
+              <div
+                data-dh-feature="customContract"
+                data-dh-property-method-id="_PUX"
+                data-dh-property-auto-invoke="false"
+                data-dh-property-contract-name="LexDAO"
+                data-dh-property-method-name="proposals"
+              >
+                <section>
+                  <aside>
+                    <section>
+                      <input
+                        type="text"
+                        placeholder="#"
+                        data-dh-property-method-id="_PUX"
+                        data-dh-property-input-name="[0]"
+                      />
+                    </section>
                   <div
                     data-dh-property-method-id="_PUX"
                     data-dh-property-output-name="sharesRequested"
-                  >
-                    <pre>Output...</pre>
+                    >
+                    <pre>LexDAO shares...</pre>
                   </div>
-                  <div
-                    data-dh-property-method-id="_PUX"
-                    data-dh-property-output-name="lootRequested"
-                  >
-                    <pre>Output...</pre>
-                  </div>
-                  <div
-                    data-dh-property-method-id="_PUX"
-                    data-dh-property-output-name="paymentRequested"
-                  >
-                    <pre>Output...</pre>
-                  </div>
-                  <div
-                    data-dh-property-method-id="_PUX"
-                    data-dh-property-output-name="tributeOffered"
-                  >
-                    <pre>Output...</pre>
-                  </div>
-                  <div
-                    data-dh-property-method-id="_PUX"
-                    data-dh-property-output-name="startingPeriod"
-                  >
-                    <pre>Output...</pre>
-                  </div>
-                  <div
-                    data-dh-property-method-id="_PUX"
-                    data-dh-property-output-name="yesVotes"
-                  >
-                    <pre>Output...</pre>
-                  </div>
-                  <div
-                    data-dh-property-method-id="_PUX"
-                    data-dh-property-output-name="noVotes"
-                  >
-                    <pre>Output...</pre>
-                  </div>
-                  <div
-                    data-dh-property-method-id="_PUX"
-                    data-dh-property-output-name="maxTotalSharesAndLootAtYesVote"
-                  >
-                    <pre>Output...</pre>
-                  </div>
-                  <div
-                    data-dh-property-method-id="_PUX"
-                    data-dh-property-output-name="details"
-                  >
-                    <pre>Output...</pre>
-                  </div>
-
-                  <button
-                    data-dh-property-invoke="true"
-                    data-dh-property-method-id="_PUX"
-                  >
-                    proposals
-                  </button>
-                </aside>
-              </section>
-            </div>
-          </header>
-          ,
-          <header>
-            <div
-              data-dh-feature="customContract"
-              data-dh-property-method-id="h0SG"
-              data-dh-property-auto-invoke="true"
-              data-dh-property-contract-name="LexDAO"
-              data-dh-property-method-name="totalShares"
-            >
-              <section>
-                <aside>
-                  <div
-                    data-dh-property-method-id="h0SG"
-                    data-dh-property-outputs="true"
-                  >
-                    <pre>Output...</pre>
-                  </div>
-
-                  <button
-                    data-dh-property-invoke="true"
-                    data-dh-property-method-id="h0SG"
-                  >
-                    LexDAO Shares Issued
-                  </button>
-                </aside>
-              </section>
-            </div>
-          </header>
-          ,
-          <header>
-            <div
-              data-dh-feature="customContract"
-              data-dh-property-method-id="Q9gd"
-              data-dh-property-auto-invoke="false"
-              data-dh-property-contract-name="LexDAO"
-              data-dh-property-method-name="convertSharesToLoot"
-            >
-              <section>
-                <aside>
-                  <section>
-                    <i>Amount in Wei</i>
-                    <input
-                      type="text"
-                      placeholder="uint256"
-                      data-dh-property-method-id="Q9gd"
-                      data-dh-property-input-name="sharesToLoot"
-                    />
-                  </section>
-
-                  <button
-                    data-dh-property-invoke="true"
-                    data-dh-property-method-id="Q9gd"
-                  >
-                    Convert Shares to Loot
-                  </button>
-                </aside>
-              </section>
-            </div>
-          </header>
-          ,
+                    <div
+                      data-dh-property-method-id="_PUX"
+                      data-dh-property-output-name="applicant"
+                    >
+                      <pre>for (∩｀-´)⊃━☆ﾟ.*･｡ﾟ...</pre>
+                    </div>
+                    <div
+                      data-dh-property-method-id="_PUX"
+                      data-dh-property-output-name="tributeOffered"
+                    >
+                      <pre>💰tribute...</pre>
+                    </div>
+                    <div
+                      data-dh-property-method-id="_PUX"
+                      data-dh-property-output-name="yesVotes"
+                    >
+                      <pre>👍votes...</pre>
+                    </div>
+                    <div
+                      data-dh-property-method-id="_PUX"
+                      data-dh-property-output-name="noVotes"
+                    >
+                      <pre>👎votes...</pre>
+                    </div>
+                    <button
+                      data-dh-property-invoke="true"
+                      data-dh-property-method-id="_PUX"
+                    >
+                    ⚔️
+                    </button>
+                  </aside>
+                </section>
+              </div>
+            </header>
           <header>
             <div
               data-dh-feature="customContract"
@@ -322,14 +147,13 @@
               data-dh-property-contract-name="LexDAO"
               data-dh-property-method-name="processProposal"
             >
-              <h3>Method <mark>"processProposal"</mark></h3>
+              <h4><u>PROCESS</u></h4>
               <section>
                 <aside>
                   <section>
-                    Input name: <i>proposalIndex</i>
                     <input
                       type="text"
-                      placeholder="uint256"
+                      placeholder="#"
                       data-dh-property-method-id="llgD"
                       data-dh-property-input-name="proposalIndex"
                     />
@@ -339,13 +163,137 @@
                     data-dh-property-invoke="true"
                     data-dh-property-method-id="llgD"
                   >
-                    processProposal
+                  ♻️
                   </button>
                 </aside>
               </section>
             </div>
           </header>
-          ,
+          <hr>
+            <header>
+              <div
+                data-dh-feature="customContract"
+                data-dh-property-method-id="i8KN"
+                data-dh-property-auto-invoke="false"
+                data-dh-property-contract-name="LexDAO"
+                data-dh-property-method-name="submitProposal"
+              >
+                <h3><u>Submit</u></h3>
+                <section>
+                  <aside>
+                    <section>
+                      <input
+                        type="text"
+                        placeholder="applicant address"
+                        data-dh-property-method-id="i8KN"
+                        data-dh-property-input-name="applicant"
+                      />
+                    </section>
+                    <section>
+                      <input
+                        type="text"
+                        placeholder="share request"
+                        data-dh-property-method-id="i8KN"
+                        data-dh-property-input-name="sharesRequested"
+                      />
+                    </section>
+                    <section>
+                      <input
+                        type="text"
+                        placeholder="loot request"
+                        data-dh-property-method-id="i8KN"
+                        data-dh-property-input-name="lootRequested"
+                      />
+                    </section>
+                    <section>
+                      <input
+                        type="text"
+                        placeholder="tribute offered"
+                        data-dh-property-method-id="i8KN"
+                        data-dh-property-input-name="tributeOffered"
+                      />
+                    </section>
+                    <section>
+                      <input
+                        type="text"
+                        placeholder="tribute token address"
+                        data-dh-property-method-id="i8KN"
+                        data-dh-property-input-name="tributeToken"
+                      />
+                    </section>
+                    <section>
+                      <input
+                        type="text"
+                        placeholder="payment request"
+                        data-dh-property-method-id="i8KN"
+                        data-dh-property-input-name="paymentRequested"
+                      />
+                    </section>
+                    <section>
+                      <input
+                        type="text"
+                        placeholder="payment token address"
+                        data-dh-property-method-id="i8KN"
+                        data-dh-property-input-name="paymentToken"
+                      />
+                    </section>
+                    <section>
+                      <input
+                        type="text"
+                        placeholder="details in bytes32"
+                        data-dh-property-method-id="i8KN"
+                        data-dh-property-input-name="details"
+                      />
+                    </section>
+                    <div
+                      data-dh-property-method-id="i8KN"
+                      data-dh-property-outputs="true"
+                      data-dh-property-outputs="true"
+                    >
+                      <pre>(∩｀-´)⊃━☆ﾟ.*･｡ﾟ...</pre>
+                    </div>
+  
+                    <button
+                      data-dh-property-invoke="true"
+                      data-dh-property-method-id="i8KN"
+                    >
+                    🙋
+                    </button>
+                  </aside>
+                </section>
+              </div>
+            </header>
+            <header>
+                <div
+                  data-dh-feature="customContract"
+                  data-dh-property-method-id="1cYM"
+                  data-dh-property-auto-invoke="false"
+                  data-dh-property-contract-name="LexDAO"
+                  data-dh-property-method-name="sponsorProposal"
+                >
+                  <h4><u>SPONSOR</u></mark></h4>
+                  <section>
+                    <aside>
+                      <section>
+                        <input
+                          type="text"
+                          placeholder="#"
+                          data-dh-property-method-id="1cYM"
+                          data-dh-property-input-name="proposalId"
+                        />
+                      </section>
+    
+                      <button
+                        data-dh-property-invoke="true"
+                        data-dh-property-method-id="1cYM"
+                      >
+                      💪
+                      </button>
+                    </aside>
+                  </section>
+                </div>
+              </header>
+          <hr>
           <header>
             <div
               data-dh-feature="customContract"
@@ -354,23 +302,22 @@
               data-dh-property-contract-name="LexDAO"
               data-dh-property-method-name="ragequit"
             >
-              <h3>Method <mark>"ragequit"</mark></h3>
+            <h2>MEMBERSHIP</h3>
+              <h3><u>Liquidate</u></h3>
               <section>
                 <aside>
                   <section>
-                    Input name: <i>sharesToBurn</i>
                     <input
                       type="text"
-                      placeholder="uint256"
+                      placeholder="Shares To Burn"
                       data-dh-property-method-id="YQnb"
                       data-dh-property-input-name="sharesToBurn"
                     />
                   </section>
                   <section>
-                    Input name: <i>lootToBurn</i>
                     <input
                       type="text"
-                      placeholder="uint256"
+                      placeholder="Loot to Burn"
                       data-dh-property-method-id="YQnb"
                       data-dh-property-input-name="lootToBurn"
                     />
@@ -380,197 +327,12 @@
                     data-dh-property-invoke="true"
                     data-dh-property-method-id="YQnb"
                   >
-                    ragequit
+                  🔥
                   </button>
                 </aside>
               </section>
             </div>
           </header>
-          ,
-          <header>
-            <div
-              data-dh-feature="customContract"
-              data-dh-property-method-id="1cYM"
-              data-dh-property-auto-invoke="false"
-              data-dh-property-contract-name="LexDAO"
-              data-dh-property-method-name="sponsorProposal"
-            >
-              <h3>Method <mark>"sponsorProposal"</mark></h3>
-              <section>
-                <aside>
-                  <section>
-                    Input name: <i>proposalId</i>
-                    <input
-                      type="text"
-                      placeholder="uint256"
-                      data-dh-property-method-id="1cYM"
-                      data-dh-property-input-name="proposalId"
-                    />
-                  </section>
-
-                  <button
-                    data-dh-property-invoke="true"
-                    data-dh-property-method-id="1cYM"
-                  >
-                    sponsorProposal
-                  </button>
-                </aside>
-              </section>
-            </div>
-          </header>
-          ,
-          <header>
-            <div
-              data-dh-feature="customContract"
-              data-dh-property-method-id="i8KN"
-              data-dh-property-auto-invoke="false"
-              data-dh-property-contract-name="LexDAO"
-              data-dh-property-method-name="submitProposal"
-            >
-              <h3>Method <mark>"submitProposal"</mark></h3>
-              <section>
-                <aside>
-                  <section>
-                    Input name: <i>applicant</i>
-                    <input
-                      type="text"
-                      placeholder="address"
-                      data-dh-property-method-id="i8KN"
-                      data-dh-property-input-name="applicant"
-                    />
-                  </section>
-                  <section>
-                    Input name: <i>sharesRequested</i>
-                    <input
-                      type="text"
-                      placeholder="uint256"
-                      data-dh-property-method-id="i8KN"
-                      data-dh-property-input-name="sharesRequested"
-                    />
-                  </section>
-                  <section>
-                    Input name: <i>lootRequested</i>
-                    <input
-                      type="text"
-                      placeholder="uint256"
-                      data-dh-property-method-id="i8KN"
-                      data-dh-property-input-name="lootRequested"
-                    />
-                  </section>
-                  <section>
-                    Input name: <i>tributeOffered</i>
-                    <input
-                      type="text"
-                      placeholder="uint256"
-                      data-dh-property-method-id="i8KN"
-                      data-dh-property-input-name="tributeOffered"
-                    />
-                  </section>
-                  <section>
-                    Input name: <i>tributeToken</i>
-                    <input
-                      type="text"
-                      placeholder="address"
-                      data-dh-property-method-id="i8KN"
-                      data-dh-property-input-name="tributeToken"
-                    />
-                  </section>
-                  <section>
-                    Input name: <i>paymentRequested</i>
-                    <input
-                      type="text"
-                      placeholder="uint256"
-                      data-dh-property-method-id="i8KN"
-                      data-dh-property-input-name="paymentRequested"
-                    />
-                  </section>
-                  <section>
-                    Input name: <i>paymentToken</i>
-                    <input
-                      type="text"
-                      placeholder="address"
-                      data-dh-property-method-id="i8KN"
-                      data-dh-property-input-name="paymentToken"
-                    />
-                  </section>
-                  <section>
-                    Input name: <i>details</i>
-                    <input
-                      type="text"
-                      placeholder="bytes32"
-                      data-dh-property-method-id="i8KN"
-                      data-dh-property-input-name="details"
-                    />
-                  </section>
-                  <section>
-                    Input name: <i>EthValue</i>
-                    <input
-                      type="text"
-                      placeholder="EthValue"
-                      data-dh-property-method-id="i8KN"
-                      data-dh-property-input-name="EthValue"
-                    />
-                  </section>
-                  <div
-                    data-dh-property-method-id="i8KN"
-                    data-dh-property-outputs="true"
-                    data-dh-property-outputs="true"
-                  >
-                    <pre>Output...</pre>
-                  </div>
-
-                  <button
-                    data-dh-property-invoke="true"
-                    data-dh-property-method-id="i8KN"
-                  >
-                    submitProposal
-                  </button>
-                </aside>
-              </section>
-            </div>
-          </header>
-          ,
-          <header>
-            <div
-              data-dh-feature="customContract"
-              data-dh-property-method-id="GIhZ"
-              data-dh-property-auto-invoke="false"
-              data-dh-property-contract-name="LexDAO"
-              data-dh-property-method-name="submitVote"
-            >
-              <h3>Method <mark>"submitVote"</mark></h3>
-              <section>
-                <aside>
-                  <section>
-                    Input name: <i>proposalIndex</i>
-                    <input
-                      type="text"
-                      placeholder="uint256"
-                      data-dh-property-method-id="GIhZ"
-                      data-dh-property-input-name="proposalIndex"
-                    />
-                  </section>
-                  <section>
-                    Input name: <i>uintVote</i>
-                    <input
-                      type="text"
-                      placeholder="uint8"
-                      data-dh-property-method-id="GIhZ"
-                      data-dh-property-input-name="uintVote"
-                    />
-                  </section>
-
-                  <button
-                    data-dh-property-invoke="true"
-                    data-dh-property-method-id="GIhZ"
-                  >
-                    submitVote
-                  </button>
-                </aside>
-              </section>
-            </div>
-          </header>
-          ,
           <header>
             <div
               data-dh-feature="customContract"
@@ -579,23 +341,21 @@
               data-dh-property-contract-name="LexDAO"
               data-dh-property-method-name="withdrawBalance"
             >
-              <h3>Method <mark>"withdrawBalance"</mark></h3>
+              <h3><u>Draw Funds</u></h3>
               <section>
                 <aside>
                   <section>
-                    Input name: <i>token</i>
                     <input
                       type="text"
-                      placeholder="address"
+                      placeholder="token address"
                       data-dh-property-method-id="sYVA"
                       data-dh-property-input-name="token"
                     />
                   </section>
                   <section>
-                    Input name: <i>amount</i>
                     <input
                       type="text"
-                      placeholder="uint256"
+                      placeholder="amount"
                       data-dh-property-method-id="sYVA"
                       data-dh-property-input-name="amount"
                     />
@@ -605,13 +365,44 @@
                     data-dh-property-invoke="true"
                     data-dh-property-method-id="sYVA"
                   >
-                    withdrawBalance
+                  💸
                   </button>
                 </aside>
               </section>
             </div>
           </header>
-          ,
+          <hr>
+          <header>
+              <h3>TOTAL SHARES</h3>
+                <div
+                  data-dh-feature="customContract"
+                  data-dh-property-method-id="h0SG"
+                  data-dh-property-auto-invoke="true"
+                  data-dh-property-contract-name="LexDAO"
+                  data-dh-property-method-name="totalShares"
+                >
+                  <section>
+                    <aside>
+                      <div
+                        data-dh-property-method-id="h0SG"
+                        data-dh-property-outputs="true"
+                      >
+                        <pre>(∩｀-´)⊃━☆ﾟ.*･｡ﾟ...</pre>
+                      </div>
+    
+                      <button
+                        data-dh-property-invoke="true"
+                        data-dh-property-method-id="h0SG"
+                      >
+                      ⚔️
+                      </button>
+                    </aside>
+                  </section>
+                </div>
+              </header>
+          <mark>
+            Powered by <a href="https://www.dapphero.io">DappHero.io</a>
+          </mark>
     </div>
     <script
       id="dh-apiKey"
